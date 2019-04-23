@@ -1,0 +1,23 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'vue-lazyload',
+1 verbose cli   '--save-dev' ]
+2 info using npm@6.9.0
+3 info using node@v10.15.1
+4 verbose npm-session 3d4a51756a6cf5e7
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 http fetch GET 200 https://registry.npmjs.org/vue-lazyload 1104ms
+8 http fetch GET 200 https://registry.npmjs.org/vue-lazyload/-/vue-lazyload-1.2.6.tgz 404ms
+9 silly pacote tag manifest for vue-lazyload@latest fetched in 1534ms
+10 timing stage:loadCurrentTree Completed in 6335ms
+11 silly install loadIdealTree
+12 silly install cloneCurrentTreeToIdealTree
+13 timing stage:loadIdealTree:cloneCurrentTree Completed in 49ms
+14 silly install loadShrinkwrap
+15 timing npm Completed in 6896ms
+16 error cb() never called!
+17 error This is an error with npm itself. Please report this error at:
+18 error <https://npm.community>
