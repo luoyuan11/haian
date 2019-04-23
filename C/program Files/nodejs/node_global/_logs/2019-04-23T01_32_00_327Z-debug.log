@@ -1,0 +1,94 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'n' ]
+2 info using npm@6.9.0
+3 info using node@v10.15.1
+4 verbose npm-session 70e236323838bfd6
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 http fetch GET 200 https://registry.npmjs.org/n 814ms
+8 silly pacote tag manifest for n@latest fetched in 837ms
+9 timing stage:loadCurrentTree Completed in 854ms
+10 silly install loadIdealTree
+11 silly install cloneCurrentTreeToIdealTree
+12 timing stage:loadIdealTree:cloneCurrentTree Completed in 0ms
+13 silly install loadShrinkwrap
+14 timing stage:loadIdealTree:loadShrinkwrap Completed in 1ms
+15 silly install loadAllDepsIntoIdealTree
+16 silly resolveWithNewModule n@3.0.2 checking installable status
+17 timing stage:loadIdealTree:loadAllDepsIntoIdealTree Completed in 4ms
+18 timing stage:loadIdealTree Completed in 6ms
+19 silly currentTree nodejs
+20 silly idealTree nodejs
+20 silly idealTree `-- n@3.0.2
+21 silly install generateActionsToTake
+22 timing stage:generateActionsToTake Completed in 3ms
+23 silly diffTrees action count 1
+24 silly diffTrees add n@3.0.2
+25 silly decomposeActions action count 8
+26 silly decomposeActions fetch n@3.0.2
+27 silly decomposeActions extract n@3.0.2
+28 silly decomposeActions preinstall n@3.0.2
+29 silly decomposeActions build n@3.0.2
+30 silly decomposeActions install n@3.0.2
+31 silly decomposeActions postinstall n@3.0.2
+32 silly decomposeActions finalize n@3.0.2
+33 silly decomposeActions refresh-package-json n@3.0.2
+34 silly install executeActions
+35 silly doSerial global-install 8
+36 verbose correctMkdir C:\Users\Administrator\Desktop\h5.haianchadu.com\haianchadu\haianchaduh5\C\program Files\nodejs\node_global\_locks correctMkdir not in flight; initializing
+37 verbose makeDirectory C:\Users\Administrator\Desktop\h5.haianchadu.com\haianchadu\haianchaduh5\C\program Files\nodejs\node_global\_locks creation not in flight; initializing
+38 verbose makeCacheDir UID & GID are irrelevant on win32
+39 verbose lock using C:\Users\Administrator\Desktop\h5.haianchadu.com\haianchadu\haianchaduh5\C\program Files\nodejs\node_global\_locks\staging-dfd8fbf9c1feea0f.lock for C:\Program Files\nodejs\node_modules\.staging
+40 silly doParallel extract 1
+41 silly extract n@3.0.2
+42 silly tarball trying n@latest by hash: sha512-mZKG3QjwpuQTHkJ8IJeiOfvOsfYSZ6hvJ3A0qn8ZnBU2zIqPBSTlFV9cJOCfJrBZIbeqndY+1INljhSxX2/tLg==
+43 silly tarball no local data for n@latest. Extracting by manifest.
+44 http fetch GET 200 https://registry.npmjs.org/n/-/n-3.0.2.tgz 240ms
+45 silly extract n@latest extracted to C:\Program Files\nodejs\node_modules\.staging\n-68a9df3b (247ms)
+46 timing action:extract Completed in 250ms
+47 silly doReverseSerial unbuild 8
+48 silly doSerial remove 8
+49 silly doSerial move 8
+50 silly doSerial finalize 8
+51 silly finalize C:\Program Files\nodejs\node_modules\n
+52 timing action:finalize Completed in 13ms
+53 silly doParallel refresh-package-json 1
+54 silly refresh-package-json C:\Program Files\nodejs\node_modules\n
+55 timing action:refresh-package-json Completed in 12ms
+56 verbose unlock done using C:\Users\Administrator\Desktop\h5.haianchadu.com\haianchadu\haianchaduh5\C\program Files\nodejs\node_global\_locks\staging-dfd8fbf9c1feea0f.lock for C:\Program Files\nodejs\node_modules\.staging
+57 timing stage:rollbackFailedOptional Completed in 6ms
+58 timing stage:runTopLevelLifecycles Completed in 1154ms
+59 verbose stack Error: Unsupported platform for n@3.0.2: wanted {"name":"n","description":"Interactively Manage All Your Node Versions","version":"3.0.2","author":{"name":"TJ Holowaychuk","email":"tj@vision-media.ca"},"homepage":"https://github.com/tj/n","bugs":{"url":"https://github.com/tj/n/issues"},"contributors":[{"name":"Travis Webb","email":"me@traviswebb.com","url":"tjw.io"},{"name":"Nimit Kalra","email":"me@nimit.io","url":"http://nimit.io"},{"name":"Troy Connor","email":"troy0820@gmail.com","url":"https://github.com/troy0820"}],"keywords":["nvm","node","version","manager","switcher","node","binary","env"],"bin":{"n":"./bin/n"},"files":["bin/n"],"repository":{"type":"git","url":"git://github.com/tj/n.git"},"preferGlobal":true,"os":["!win32"],"engines":{"node":"*"},"license":"MIT","_resolved":"https://registry.npmjs.org/n/-/n-3.0.2.tgz","_integrity":"sha512-mZKG3QjwpuQTHkJ8IJeiOfvOsfYSZ6hvJ3A0qn8ZnBU2zIqPBSTlFV9cJOCfJrBZIbeqndY+1INljhSxX2/tLg==","_from":"n","_id":"n@3.0.2","bundleDependencies":false,"deprecated":false,"_shasum":"957637705f6a9ca5213887cfc187e0c1c30a020a","_requested":{"type":"tag","registry":true,"raw":"n","name":"n","escapedName":"n","rawSpec":"","saveSpec":null,"fetchSpec":"latest"},"_spec":"n","_where":"C:\\Users\\Administrator\\Desktop\\h5.haianchadu.com\\haianchadu\\haianchaduh5"} (current: {"os":"win32","cpu":"x64"})
+59 verbose stack     at checkPlatform (C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\node_modules\npm-install-checks\index.js:45:14)
+59 verbose stack     at tryCatcher (C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\node_modules\bluebird\js\release\util.js:16:23)
+59 verbose stack     at ret (eval at makeNodePromisifiedEval (C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+59 verbose stack     at readJson.then.catch.then (C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\lib\install\action\refresh-package-json.js:31:12)
+59 verbose stack     at tryCatcher (C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\node_modules\bluebird\js\release\util.js:16:23)
+59 verbose stack     at Promise._settlePromiseFromHandler (C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\node_modules\bluebird\js\release\promise.js:512:31)
+59 verbose stack     at Promise._settlePromise (C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\node_modules\bluebird\js\release\promise.js:569:18)
+59 verbose stack     at Promise._settlePromise0 (C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\node_modules\bluebird\js\release\promise.js:614:10)
+59 verbose stack     at Promise._settlePromises (C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\node_modules\bluebird\js\release\promise.js:694:18)
+59 verbose stack     at Promise._fulfill (C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\node_modules\bluebird\js\release\promise.js:638:18)
+59 verbose stack     at Promise._settlePromise (C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\node_modules\bluebird\js\release\promise.js:582:21)
+59 verbose stack     at Promise._settlePromise0 (C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\node_modules\bluebird\js\release\promise.js:614:10)
+59 verbose stack     at Promise._settlePromises (C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\node_modules\bluebird\js\release\promise.js:694:18)
+59 verbose stack     at Promise._fulfill (C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\node_modules\bluebird\js\release\promise.js:638:18)
+59 verbose stack     at Promise._resolveCallback (C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\node_modules\bluebird\js\release\promise.js:432:57)
+59 verbose stack     at Promise._settlePromiseFromHandler (C:\Users\Administrator\AppData\Roaming\npm\node_modules\npm\node_modules\bluebird\js\release\promise.js:524:17)
+60 verbose pkgid n@3.0.2
+61 verbose cwd C:\Users\Administrator\Desktop\h5.haianchadu.com\haianchadu\haianchaduh5
+62 verbose Windows_NT 6.1.7601
+63 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "n"
+64 verbose node v10.15.1
+65 verbose npm  v6.9.0
+66 error code EBADPLATFORM
+67 error notsup Unsupported platform for n@3.0.2: wanted {"os":"!win32","arch":"any"} (current: {"os":"win32","arch":"x64"})
+68 error notsup Valid OS:    !win32
+68 error notsup Valid Arch:  any
+68 error notsup Actual OS:   win32
+68 error notsup Actual Arch: x64
+69 verbose exit [ 1, true ]
