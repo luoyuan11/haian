@@ -14,7 +14,12 @@ Vue.use(Router)
 export default new Router({
   routes: [
     {
-      path:'/',
+      path: '/',
+      name: 'HelloWorld',
+      component: HelloWorld
+    },
+    {
+      path:'/open',
       name:'Open',
       component:Open
     },
