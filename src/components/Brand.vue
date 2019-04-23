@@ -1,6 +1,7 @@
 <template>
   <div id="brand">
     <div class="part1">
+
       <GOMenu/>
       <div class="scene">
         <img src="../../static/img/brand/T.png" alt="" class="title">
