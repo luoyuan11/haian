@@ -13,7 +13,7 @@ export default {
 .menu_index{
     width:0.57rem;
     height:0.82rem;
-    position:fixed;
+    position:absolute;
     top:0rem;
     right:0.1rem;
 }
