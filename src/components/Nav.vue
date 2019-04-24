@@ -28,6 +28,22 @@
     75%{transform: translateY(-0.05rem)}
     100%{transform: translateY(0rem);}
 }
+
+
+@keyframes left-in{
+    0%{left:-1.33rem}
+    100%{left:0.33rem}
+}
+@keyframes up-down-fade{
+    0%{height:0%}
+    100%{height:1.65rem}
+}
+@keyframes float-up-down{
+    0%{transform: translateY(0rem);}
+    25%{transform: translateY(0.05rem)}
+    75%{transform: translateY(-0.05rem)}
+    100%{transform: translateY(0rem);}
+}
  .box{
      width:3.75rem;
      height:6.67rem;
@@ -47,6 +63,7 @@
     position: absolute;
     bottom:0.4rem;
     left:1.675rem;
+    animation: float-up-down 1s infinite linear;
     -webkit-animation: float-up-down 1s infinite linear;
 }
 .girl{
@@ -55,6 +72,7 @@
     position: absolute;
     bottom:0.36rem;
     left:-1.33rem;
+    animation: left-in 1s forwards 0.4s;
     -webkit-animation: left-in 1s forwards 0.4s;
 }
 .menu{
@@ -70,6 +88,7 @@
     float:left;
     margin-right:0.23rem;
     overflow: hidden;
+    animation: up-down-fade 1s forwards;
     -webkit-animation: up-down-fade 1s forwards;
 }
 .menu li img{
