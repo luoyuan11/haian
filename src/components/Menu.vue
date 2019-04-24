@@ -5,7 +5,7 @@
 </template>
 <script>
 export default {
-  name: 'Menu'
+  name: 'menuIndex'
 }
 </script>
 
