@@ -5,8 +5,6 @@ import App from './App'
 import router from './router'
 import VueLazyLoad from 'vue-lazyload'
 
-import 'animate.css'
-
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

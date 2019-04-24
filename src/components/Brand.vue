@@ -3,10 +3,10 @@
     <div class="part1">
       <GOMenu/>
       <div class="scene">
-        <img src="../../static/img/brand/T.png" alt="" class="title wow rollIn">
-        <img src="../../static/img/brand/p1.png" alt="" class="bigBottle">
+        <img src="../../static/img/brand/T.png" alt="" class="title wow flowUD infinite">
+        <img src="../../static/img/brand/p1.png" alt="" class="bigBottle wow flowRL infinite">
         <img src="../../static/img/brand/p2.png" alt="" class="smallBottle">
-        <img src="../../static/img/brand/y1.png" alt="" class="fish wow rollIn">
+        <img src="../../static/img/brand/y1.png" alt="" class="fish">
       </div>
       <img src="../../static/img/brand/images/01.jpg" alt="">
     </div>
@@ -14,27 +14,27 @@
       <img src="../../static/img/brand/images/02.jpg" alt="">
     </div>
     <div class="part3">
-      <img src="../../static/img/brand/images/03_1.png" alt="" class="word wow rollIn">
+      <img src="../../static/img/brand/images/03_1.png" alt="" class="word">
       <img src="../../static/img/brand/images/03_2.jpg" alt="">
     </div>
     <div class="part4">
-      <img src="../../static/img/brand/t_1.png" alt="" class="title wow rollIn">
+      <img src="../../static/img/brand/t_1.png" alt="" class="title">
       <img src="../../static/img/brand/images/04.jpg" alt="">
     </div>
     <div class="part5">
-      <img src="../../static/img/brand/i1.png" alt="" class="photo wow rollIn">
+      <img src="../../static/img/brand/i1.png" alt="" class="photo">
       <img src="../../static/img/brand/images/05.jpg" alt="">
     </div>
     <div class="part6">
-      <img src="../../static/img/brand/t_2.png" alt="" class="title wow rollIn">
-      <img src="../../static/img/brand/i2.png" alt="" class="photo wow rollIn">
+      <img src="../../static/img/brand/t_2.png" alt="" class="title">
+      <img src="../../static/img/brand/i2.png" alt="" class="photo">
       <img src="../../static/img/brand/images/06.jpg" alt="">
     </div>
     <div class="part7">
       <img src="../../static/img/brand/images/07.jpg" alt="">
     </div>
     <div class="part8">
-      <img src="../../static/img/brand/next_button.png" alt="" class="nextBt wow rollIn" >
+      <img src="../../static/img/brand/next_button.png" alt="" class="nextBt" >
       <img src="../../static/img/brand/images/08.jpg" alt="">
     </div>
   </div>
@@ -56,7 +56,7 @@
     width: 0.315rem;
     height: 0.335rem;
     top: 3.845rem;
-    right: -0.05rem;
+    right: 0rem;
   }
   #brand .part1 .scene .smallBottle{
     width: 0.275rem;
@@ -121,7 +121,13 @@
       GOMenu
     },
     mounted() {
-      new WOW().init()
+      new WOW({
+        boxClass:"wow",
+        animateClass:"animation",
+        offset:30,
+        mobile:true,
+        live:false
+      }).init()
     }
   }
 </script>
