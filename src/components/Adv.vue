@@ -43,7 +43,7 @@
       <img src="/static/img/adv/label.png" alt="" class="adv_word1">
       <img src="/static/img/adv/next_button.png" alt="" class="adv_next"> 
     </div>
-    <GOMenu class="wow bounceInDown  5s "></GOMenu>
+    <GOMenu class="wow bounceInDown"></GOMenu>
   </div>
 </template>
 
