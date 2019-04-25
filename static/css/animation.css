@@ -2,9 +2,36 @@
 /*!
  * animation.css
  * Version - 1.0.0
- *
  * Copyright (c) 2019 mi
  */
+
+/*****************************************目录******************************************
+  类名                        说明
+bounceInLeft                左边飞入
+bounceInRight               右边飞入
+flash                       闪烁
+fadeIn                      0-100显示
+floatUD                     上下浮动
+floatLeft                   从左往右浮动
+floatRight                  从右往左浮动
+flowDown                    从上向下显示
+bounceInDown                下落
+
+****************************************************************************************
+                                  增加动画模板
+@-webkit-keyframes 类名 {
+
+}
+
+@keyframes 类名 {
+
+}
+
+.类名 {
+  -webkit-animation-name: 类名;
+  animation-name: 类名;
+}
+*****************************************************************************************/
 
 .animation {
   -webkit-animation-duration: 1s;
@@ -77,7 +104,6 @@
 }
 
 /*****************************以下为所有的动画效果，可自行在其后追加********************/
-
 
 /*****左边飞入*****/
 @-webkit-keyframes bounceInLeft {
@@ -315,9 +341,9 @@
   }
 
   50% {
-    -webkit-transform: translateY(.3rem);
+    -webkit-transform: translateY(.1rem);
     opacity: .7;
-    transform: translateY(.3rem)
+    transform: translateY(.1rem)
   }
 
   to {
@@ -334,7 +360,7 @@
   }
 
   50% {
-    -webkit-transform: translateY(.3rem);
+    -webkit-transform: translateY(.1rem);
     opacity: .7
   }
 
@@ -350,27 +376,47 @@
 }
 /*****上下浮动-end *****/
 
-/*****左右浮动 *****/
-@keyframes floatRL {
+/*****从左往右浮动 *****/
+@keyframes floatLeft {
   0%{transform: translate(0rem);}
   25%{transform: translate(0.1rem)}
   75%{transform: translate(-0.1rem)}
   100%{transform: translate(0rem);}
 }
 
-@-webkit-keyframes floatRL {
+@-webkit-keyframes floatLeft {
   0%{transform: translate(0rem);}
   25%{transform: translate(0.1rem)}
   75%{transform: translate(-0.1rem)}
   100%{transform: translate(0rem);}
 }
 
-.floatRL {
-  -webkit-animation-name: floatRL;
-  animation-name: floatRL;
+.floatLeft {
+  -webkit-animation-name: floatLeft;
+  animation-name: floatLeft;
 }
-/*****左右浮动-end *****/
+/*****从左往右浮动-end *****/
 
+/*****从右往左浮动 *****/
+@keyframes floatRight {
+  0%{transform: translate(0rem);}
+  25%{transform: translate(-0.1rem)}
+  75%{transform: translate(0.1rem)}
+  100%{transform: translate(0rem);}
+}
+
+@-webkit-keyframes floatRight {
+  0%{transform: translate(0rem);}
+  25%{transform: translate(-0.1rem)}
+  75%{transform: translate(0.1rem)}
+  100%{transform: translate(0rem);}
+}
+
+.floatRight {
+  -webkit-animation-name: floatRight;
+  animation-name: floatRight;
+}
+/*****从右往左浮动-end *****/
 
 /*****从上向下显示*****/
 
@@ -411,13 +457,12 @@
 .flowDown {
   -webkit-animation-name: flowDown;
   animation-name: flowDown;
-  -webkit-mask: url("../img/mask.png") no-repeat 0 0;
-  mask: url("../img/mask.png") no-repeat 0 0;
+  -webkit-mask: url("../img/mask.png") no-repeat content content;
+  mask: url("../img/mask.png") no-repeat center center;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  /*以下两句复制到使用的控件样式中，并改成控件大小*/
-  /*-webkit-mask-size: 13.82rem 6.6rem;*/
-  /*mask-size: 13.82rem 6.6rem;*/
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
 }
 
 /*****从上向下显示-end *****/
