@@ -28,7 +28,7 @@ export default new Router({
       name:'/Brand',
       component:Brand
     },{
-      path:'/',
+      path:'/adv',
       name:'/Adv',
       component:Adv
     },
