@@ -17,6 +17,10 @@
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
 }
+.animation.liner{
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
 
 .animation.delay-1s {
   -webkit-animation-delay: 1s;
@@ -303,7 +307,7 @@
 /*****0-100显示-end *****/
 
 /*****上下浮动 *****/
-@keyframes flowUD {
+@keyframes floatUD {
   0% {
     -webkit-transform: translateY(0);
     opacity: 1;
@@ -323,7 +327,7 @@
   }
 }
 
-@-webkit-keyframes flowUD {
+@-webkit-keyframes floatUD {
   0% {
     -webkit-transform: translateY(0);
     opacity: 1
@@ -340,29 +344,166 @@
   }
 }
 
-.flowUD {
-  -webkit-animation-name: flowUD;
-  animation-name: flowUD;
+.floatUD {
+  -webkit-animation-name: floatUD;
+  animation-name: floatUD;
 }
 /*****上下浮动-end *****/
 
 /*****左右浮动 *****/
-@keyframes flowRL {
+@keyframes floatRL {
   0%{transform: translate(0rem);}
   25%{transform: translate(0.1rem)}
   75%{transform: translate(-0.1rem)}
   100%{transform: translate(0rem);}
 }
 
-@-webkit-keyframes flowRL {
+@-webkit-keyframes floatRL {
   0%{transform: translate(0rem);}
   25%{transform: translate(0.1rem)}
   75%{transform: translate(-0.1rem)}
   100%{transform: translate(0rem);}
 }
 
-.flowRL {
-  -webkit-animation-name: flowRL;
-  animation-name: flowRL;
+.floatRL {
+  -webkit-animation-name: floatRL;
+  animation-name: floatRL;
 }
 /*****左右浮动-end *****/
+
+
+/*****从上向下显示*****/
+
+@keyframes flowDown {
+  0% {
+    -webkit-mask-position: 0 -6.6rem;
+    mask-position: 0 -6.6rem;
+    opacity: 0
+  }
+
+  5% {
+    opacity: 1
+  }
+
+  to {
+    -webkit-mask-position: 0 0;
+    mask-position: 0 0;
+    opacity: 1
+  }
+}
+
+@-webkit-keyframes flowDown {
+  0% {
+    -webkit-mask-position: 0 -6.6rem;
+    opacity: 0
+  }
+
+  5% {
+    opacity: 1
+  }
+
+  to {
+    -webkit-mask-position: 0 0;
+    opacity: 1
+  }
+}
+
+.flowDown {
+  -webkit-animation-name: flowDown;
+  animation-name: flowDown;
+  -webkit-mask: url("../img/mask.png") no-repeat 0 0;
+  mask: url("../img/mask.png") no-repeat 0 0;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  /*以下两句复制到使用的控件样式中，并改成控件大小*/
+  /*-webkit-mask-size: 13.82rem 6.6rem;*/
+  /*mask-size: 13.82rem 6.6rem;*/
+}
+
+/*****从上向下显示-end *****/
+
+
+/*****下落 *****/
+@-webkit-keyframes bounceInDown {
+
+  0%,
+  100%,
+  60%,
+  75%,
+  90% {
+    -webkit-transition-timing-function: cubic-bezier(0.215, .61, .355, 1);
+    transition-timing-function: cubic-bezier(0.215, .61, .355, 1)
+  }
+
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -3000px, 0);
+    transform: translate3d(0, -3000px, 0)
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 25px, 0);
+    transform: translate3d(0, 25px, 0)
+  }
+
+  75% {
+    -webkit-transform: translate3d(0, -10px, 0);
+    transform: translate3d(0, -10px, 0)
+  }
+
+  90% {
+    -webkit-transform: translate3d(0, 5px, 0);
+    transform: translate3d(0, 5px, 0)
+  }
+
+  100% {
+    -webkit-transform: none;
+    transform: none
+  }
+}
+
+@keyframes bounceInDown {
+
+  0%,
+  100%,
+  60%,
+  75%,
+  90% {
+    -webkit-transition-timing-function: cubic-bezier(0.215, .61, .355, 1);
+    transition-timing-function: cubic-bezier(0.215, .61, .355, 1)
+  }
+
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -3000px, 0);
+    transform: translate3d(0, -3000px, 0)
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 25px, 0);
+    transform: translate3d(0, 25px, 0)
+  }
+
+  75% {
+    -webkit-transform: translate3d(0, -10px, 0);
+    transform: translate3d(0, -10px, 0)
+  }
+
+  90% {
+    -webkit-transform: translate3d(0, 5px, 0);
+    transform: translate3d(0, 5px, 0)
+  }
+
+  100% {
+    -webkit-transform: none;
+    transform: none
+  }
+}
+
+.bounceInDown {
+  -webkit-animation-name: bounceInDown;
+  animation-name: bounceInDown
+}
+/*****下落-end *****/

@@ -3,8 +3,8 @@
     <div class="part1">
       <GOMenu/>
       <div class="scene">
-        <img src="../../static/img/brand/T.png" alt="" class="title wow flowUD infinite">
-        <img src="../../static/img/brand/p1.png" alt="" class="bigBottle wow flowRL infinite">
+        <img src="../../static/img/brand/T.png" alt="" class="title wow bounceInDown">
+        <img src="../../static/img/brand/p1.png" alt="" class="bigBottle wow floatUD infinite slower">
         <img src="../../static/img/brand/p2.png" alt="" class="smallBottle">
         <img src="../../static/img/brand/y1.png" alt="" class="fish">
       </div>
@@ -51,6 +51,8 @@
     height: 0.935rem;
     top: 1rem;
     left: 0.77rem;
+    -webkit-mask-size: 2.37rem 0.935rem;
+    mask-size: 2.37rem 0.935rem;
   }
   #brand .part1 .scene .bigBottle{
     width: 0.315rem;
