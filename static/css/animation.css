@@ -16,7 +16,7 @@ floatLeft                   从左往右浮动
 floatRight                  从右往左浮动
 flowDown                    从上向下显示
 bounceInDown                下落
-
+rightUpIn                   斜角右上进入
 ****************************************************************************************
                                   增加动画模板
 @-webkit-keyframes 类名 {
@@ -552,3 +552,20 @@ bounceInDown                下落
   animation-name: bounceInDown
 }
 /*****下落-end *****/
+
+/*****斜角右上进入*****/
+@keyframes rightUpIn{
+  0%{transform: translate(1.7rem,-0.6rem)}
+  0.1%{opacity: 1;}
+  100%{opacity: 1; transform: translate(0rem,0rem)}
+}
+@-webkit-keyframes rightUpIn{
+  0%{transform: translate(1.7rem,-0.6rem)}
+  0.1%{opacity: 1;}
+  100%{opacity: 1; transform: translate(0rem,0rem)}
+}
+.rightUpIn {
+  -webkit-animation-name: rightUpIn;
+  animation-name: rightUpIn;
+}
+/*****斜角右进入-end *****/
