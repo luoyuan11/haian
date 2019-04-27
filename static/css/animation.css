@@ -15,8 +15,8 @@ floatUD                     上下浮动
 floatLeft                   从左往右浮动
 floatRight                  从右往左浮动
 flowDown                    从上向下显示
-bounceInDown                下落
-
+bounceInDown                下落    
+dimAnddim                   忽明忽暗
 ****************************************************************************************
                                   增加动画模板
 @-webkit-keyframes 类名 {
@@ -307,21 +307,21 @@ bounceInDown                下落
 
 /*****0-100显示 *****/
 @-webkit-keyframes fadeIn {
-  from {
+  0% {
     opacity: 0;
   }
 
-  to {
+  100%{
     opacity: 1;
   }
 }
 
 @keyframes fadeIn {
-  from {
+  0% {
     opacity: 0;
   }
 
-  to {
+  100% {
     opacity: 1;
   }
 }
@@ -552,3 +552,30 @@ bounceInDown                下落
   animation-name: bounceInDown
 }
 /*****下落-end *****/
+/*忽明忽灭*/
+@-webkit-keyframes dimAnddim {
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+@keyframes dimAnddim {
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+.dimAnddim{
+  animation-name: dimAnddim;
+  -webkit-animation-name: dimAnddim;
+}

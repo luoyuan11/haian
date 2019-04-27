@@ -2,46 +2,48 @@
   <div class="adv">
     <div class="davTop">
       <img src="/static/img/adv/01.jpg" alt width="100%">
-      <img src="/static/img/adv/0.png" alt class="adv_1" width="100%">
+      <img src="/static/img/adv/0.png" alt class="adv_1 wow flowDown" width="100%" >
     </div>
     <div class="advMild">
       <img src="/static/img/adv/02.jpg" alt width="100%">
-      <img src="/static/img/adv/t1.png" alt class="adv_t1">
-      <img src="/static/img/adv/tt1.png" alt class="adv_tt1">
+      <img src="/static/img/adv/t1.png" alt class="adv_t1 wow fadeIn">
+      <img src="/static/img/adv/tt1.png" alt class="adv_tt1 wow fadeIn">
       <img src="/static/img/adv/cha1.gif" alt class="adv_cha1">
       <img src="/static/img/adv/cha2.gif" alt class="adv_cha2">
-    </div>
-    <div class="advBott">
-      <img src="../../static/img/adv/03.jpg" alt>
+      <img src="/static/img/adv/4.png" alt="" class="girl_max wow bounceInLeft">
+      <img src="/static/img/adv/3.png" alt="" class="adv_shui wow bounceInRight">
+      <img src="/static/img/adv/1.png" alt="" class="advMild_word wow bounceInRight">
+      <img src="/static/img/adv/he.png" alt="" class="adv_he wow fadeIn">
     </div>
     <div class="advCod">
-      <img src="../../static/img/adv/04.jpg" alt>
-      <img src="/static/img/adv/t2.png" alt class="adv_t2">
-      <img src="/static/img/adv/tt2.png" alt class="adv_tt2">
-      <img src="/static/img/adv/girl.png" alt class="adv_girl">
+      <img src="/static/img/adv/03.jpg" alt>
+      <img src="/static/img/adv/t2.png" alt class="adv_t2 wow fadeIn">
+      <img src="/static/img/adv/tt2.png" alt class="adv_tt2 wow fadeIn">
+      <img src="/static/img/adv/girl.png" alt class="adv_girl wow fadeIn">
+      <img src="/static/img/adv/8.png" alt="" class="advCod_word wow bounceInRight">
     </div>
     <div class="advDoen">
       <img src="/static/img/adv/05.webp" alt>
-      <img src="/static/img/adv/t3.png" alt class="adv_t3">
-      <img src="/static/img/adv/tt3.png" alt class="adv_tt3">
+      <img src="/static/img/adv/t3.png" alt class="adv_t3 wow fadeIn">
+      <img src="/static/img/adv/tt3.png" alt class="adv_tt3 wow fadeIn">
      <img src="/static/img/adv/1drink.png" alt class="adv_1drink">
-      <img src="/static/img/adv/2Water-waves.png" alt class="adv_2waves">
-      <img src="/static/img/adv/copy1.png" alt="" class="adv_copy1">
-      <img src="/static/img/adv/copy2.png" alt="" class="adv_copy2">
+      <img src="/static/img/adv/2Water-waves.png" alt class="adv_2waves ">
+      <img src="/static/img/adv/copy1.png" alt="" class="adv_copy1 wow bounceInRight">
+      <img src="/static/img/adv/copy2.png" alt="" class="adv_copy2 wow bounceInLeft">
     </div>
     <div class="advFile">
       <img src="/static/img/adv/07.jpg" alt>
-      <img src="/static/img/adv/copy3.png" alt="" class="adv_copy3">      
+      <img src="/static/img/adv/copy3.png" alt="" class="adv_copy3 wow flowDown">      
     </div>
     <div class="advGood">
       <img src="/static/img/adv/08.jpg" alt>
-      <img src="/static/img/adv/t4.png" alt class="adv_t4">      
-      <img src="/static/img/adv/tt4.png" alt class="adv_tt4">      
+      <img src="/static/img/adv/t4.png" alt class="adv_t4 wow fadeIn">      
+      <img src="/static/img/adv/tt4.png" alt class="adv_tt4 wow fadeIn">      
     </div>
     <div class="advHight">
       <img src="/static/img/adv/09.jpg" alt>
-      <img src="/static/img/adv/label.png" alt="" class="adv_word1">
-      <img src="/static/img/adv/next_button.png" alt="" class="adv_next"> 
+      <img src="/static/img/adv/label.png" alt="" class="adv_word1  wow fadeIn ">
+      <router-link to="/product"> <img src="/static/img/adv/next_button.png" alt="" class="adv_next wow dimAnddim infinite" ></router-link>
     </div>
     <GOMenu class="wow bounceInDown"></GOMenu>
   </div>
@@ -59,7 +61,7 @@
      new WOW({
         boxClass:"wow",
         animateClass:"animation",
-        offset:30,
+        offset:50,
         mobile:true,
         live:false
       }).init()
@@ -107,15 +109,22 @@
   position: absolute;
   width: 1.7rem;
   height: 0.95rem;
-  left: 0.15rem;
-  bottom: -2rem;
+left: 0.15rem;
+    bottom: 1rem;
 }
 .adv_cha2 {
   position: absolute;
   width: 2rem;
   height: 1.135rem;
   right: 0.2rem;
-  bottom: -2.35rem;
+  bottom: 0.65rem;;
+}
+.girl_max{
+  position: absolute;
+  top:1.7rem;
+  left: 0.18rem;
+ width: 1.68rem;
+	height: 2.51rem;
 }
 .advCod {
   position: relative;
@@ -130,6 +139,35 @@
   height: 1.1rem;
   left: 0.9rem;
   bottom: 1rem;
+  animation-delay: 0.5s;
+}
+.adv_shui{
+  position: absolute;
+  top: 1.7rem;
+  width: 1.58rem;
+  height: 1.52rem;
+  right: 0.1rem;
+}
+.advMild_word{
+  position: absolute;
+  width: 1.51rem;
+  height: 0.75rem;top: 3.35rem;
+  right: 0.24rem;
+}
+.adv_he{
+  position: absolute;
+  left: 1.8rem;
+  top: 1.7rem;
+  	width: 0.65rem;
+  height: 0.43rem;
+  animation-delay: 0.5s;
+}
+.advCod_word{
+  position: absolute;
+    bottom: 0.25rem;
+  left: 1rem;
+  width: 2.59rem;
+	height: 0.53rem;
 }
 .advDoen {
   position: relative;
@@ -206,6 +244,7 @@ left: 50%;
 margin-left:-1.075rem;
 top: 50%;
 margin-top: -0.675rem;
+animation-duration: 2s;
 }
 .adv_next{
   position: absolute;
@@ -214,5 +253,6 @@ margin-top: -0.675rem;
   left: 50%;
   margin-left: -0.48rem;
   bottom: 0.5rem;
+  animation-duration: 1.8s;
 }
 </style>
