@@ -21,16 +21,16 @@
     <div class="part4">
       <div class="scene">
         <img src="../../static/img/brand/i1.png" alt="" class="computer wow bounceInRight">
-        <img src="../../static/img/brand/i3_y.png" alt="" class="fish">
-        <img src="../../static/img/brand/i3.png" alt="" class="shop">
+        <img src="../../static/img/brand/i3_y.png" alt="" class="fish wow floatUD infinite slower">
+        <img src="../../static/img/brand/i3.png" alt="" class="shop wow fadeIn slower">
       </div>
       <img src="../../static/img/brand/images/04.jpg" alt="">
     </div>
     <div class="part5">
       <div class="scene">
         <img src="../../static/img/brand/t_2.png" alt="" class="title wow bounceInLeft">
-        <img src="../../static/img/brand/i2.png" alt="" class="people wow fadeIn slower">
-        <div class="fish">
+        <img src="../../static/img/brand/i2.png" alt="" class="people wow fadeIn">
+        <div class="fish wow fadeIn slower">
           <img src="../../static/img/brand/i2_y.png" alt="">
         </div>
       </div>
@@ -40,6 +40,13 @@
       <img src="../../static/img/brand/images/06.jpg" alt="">
     </div>
     <div class="part7">
+      <div class="scene">
+        <img src="../../static/img/brand/8.png" alt="" class="wow bounceInLeft">
+        <img src="../../static/img/brand/9.png" alt="" class="wow fadeIn slower">
+        <div class="people">
+          <img src="../../static/img/brand/10.png" alt="" class="wow fadeIn slower">
+        </div>
+      </div>
       <div class="nextBt">
         <router-link to="/adv">
           <img src="../../static/img/brand/next_button.png" alt="">
@@ -130,6 +137,7 @@
     height: 2.05rem;
     top: 20.965rem;
     right: 0;
+    animation-duration: 5s;
   }
   #brand .part5 .scene .fish{
     position: absolute;
@@ -146,7 +154,6 @@
 
   #brand .part7 .nextBt{
     position: absolute;
-    position: absolute;
     width: 0.955rem;
     height: 0.35rem;
     left: 1.37rem;
@@ -155,7 +162,23 @@
   #brand .part7 .nextBt img{
     position: absolute;
   }
-
+  #brand .part7 .scene{
+    position: relative;
+  }
+  #brand .part7 .scene>img{
+    position: absolute;
+    width: 2.685rem;
+    height: 1.81rem;
+    left: 0.355rem;
+    top: 0.22rem;
+  }
+  #brand .part7 .scene .people{
+    position: absolute;
+    width: 1.235rem;
+    height: 1.79rem;
+    right: 0;
+    top: 0.385rem;
+  }
 </style>
 
 
