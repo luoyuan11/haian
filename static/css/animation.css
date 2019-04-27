@@ -552,7 +552,6 @@ dimAnddim                   忽明忽暗
   animation-name: bounceInDown
 }
 /*****下落-end *****/
-<<<<<<< HEAD
 /*忽明忽灭*/
 @-webkit-keyframes dimAnddim {
   0%{
@@ -580,8 +579,6 @@ dimAnddim                   忽明忽暗
   animation-name: dimAnddim;
   -webkit-animation-name: dimAnddim;
 }
-=======
-
 /*****斜角右上进入*****/
 @keyframes rightUpIn{
   0%{transform: translate(1.7rem,-0.6rem)}
@@ -598,4 +595,3 @@ dimAnddim                   忽明忽暗
   animation-name: rightUpIn;
 }
 /*****斜角右进入-end *****/
->>>>>>> eb6ae0b5fca3dfb6fe67a7c18ecb19fb784f3f08
