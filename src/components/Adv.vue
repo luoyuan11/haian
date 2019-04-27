@@ -51,6 +51,7 @@
 
 <script>
   import GOMenu from '../components/Menu.vue'
+  import lazyload from "vue-lazyload"
   import {WOW} from 'wowjs'
   export default {
   name: "Adv",
