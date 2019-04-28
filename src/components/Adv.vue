@@ -43,7 +43,7 @@
     <div class="advHight">
       <img src="/static/img/adv/09.jpg" alt>
       <img src="/static/img/adv/label.png" alt="" class="adv_word1  wow fadeIn ">
-      <router-link to="/product"> <img src="/static/img/adv/next_button.png" alt="" class="adv_next wow dimAnddim infinite" ></router-link>
+      <router-link to="/product" tag="div" class="next_bg "> <img src="/static/img/adv/next_button2.png" alt="" class="adv_next wow flash infinite linear" ></router-link>
     </div>
     <GOMenu class="wow bounceInDown"></GOMenu>
   </div>
@@ -248,12 +248,18 @@ margin-top: -0.675rem;
 animation-duration: 2s;
 }
 .adv_next{
-  position: absolute;
- 	width: 0.955rem;
-	height: 0.35rem;
-  left: 50%;
-  margin-left: -0.48rem;
-  bottom: 0.5rem;
-  animation-duration: 1.8s;
+  /* bottom: 0.5rem; */
+  animation-duration: 2.8s;
+  width: 100%;
+}
+.next_bg{
+    position: absolute;
+    left: 50%;
+    margin-left: -0.48rem;
+    bottom: 0.5rem;
+    width: 0.955rem;
+    height: 0.35rem;
+    background: url(/static/img/adv/next_button.png);
+    background-size: 100%;
 }
 </style>

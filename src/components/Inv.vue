@@ -17,7 +17,7 @@
       <img src="static/img/inv/t2_p1.png" alt class="inv_10 inv_img wow fadeIn">
       <img src="static/img/inv/t2_p2.png" alt class="inv_11 inv_img wow bounceInRight">
       <img src="static/img/inv/t2_fly.png" alt class="inv_12 inv_img">
-      <img src="static/img/inv/t2_word.png" alt class="inv_13 inv_img wow wow bounceInLeft">
+      <img src="static/img/inv/t2_word.png" alt class="inv_13 inv_img wow bounceInLeft">
       <img src="static/img/inv/t2_p3.png" alt class="inv_14 inv_img wow fadeIn">
     </div>
     <div class="inv_about">
@@ -41,7 +41,7 @@
     <div class="inv_about">
       <img src="static/img/inv/06.jpg" alt>
       <img src="static/img/inv/word.png" alt class="inv_img inv_24 wow floatUD infinite">
-      <router-link to="/support" tag="div" class="inv_25 inv_img  wow flash infinite"><img src="static/img/inv/next_button.png" alt class=""> </router-link>  
+      <router-link to="/support" tag="div" class="inv_25 inv_img "><img src="/static/img/adv/next_button2.png" alt class="wow flash infinite slower"> </router-link>  
     </div>
     <GOMenu class="wow bounceInDown"></GOMenu>
   </div>
@@ -240,5 +240,7 @@ width: 1rem;
     margin-left: -0.475rem;
     bottom: 0.6rem;
     animation-duration: 4s;
+    background: url(/static/img/adv/next_button.png);
+    background-size:100%;
 }
 </style>
