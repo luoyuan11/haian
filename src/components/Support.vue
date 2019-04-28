@@ -62,7 +62,7 @@
        <img src="static/img/support/t6.png" alt="" class="t6">
         <img src="static/img/support/000.png" alt="" class="t8 wow floatUD infinite slow">
         <img src="static/img/support/girl.png" alt="" class="girl wow fadeIn slow">
-        <router-link to="/"><img src="static/img/support/button.png" alt="" class="button wow flash infinite liner slow animation"></router-link>
+        <router-link to="/"><img src="static/img/support/button.png" alt="" class="button "><img src="static/img/brand/next_button2.png" alt="" class="button slow wow flash infinite liner animation"></router-link>
     </div>
   </div>
 </template>
@@ -123,7 +123,6 @@
     position:absolute;
     left:1.38rem;
     bottom:0.615rem;
-    animation-duration: 10s;
 }
 .girl{
     width:0.755rem;
@@ -185,11 +184,11 @@
     bottom:0.3rem;
 }
 .t4_04{
-    width:3.325rem;
-    height:1.45rem;
+    width:3.135rem;
+    height:1.66rem;
     position: absolute;
     left:0.21rem;
-    bottom:0.18rem;
+    bottom:0.2rem;
 }
 .t4_03{
     width:3.39rem;

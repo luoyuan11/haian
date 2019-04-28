@@ -2,23 +2,23 @@
  <div class='box'>
      <div class="bg">
         <ul class="menu">
-            <li><router-link to="/brand"><img src="/static/img/nav/button_1.png" alt=""></router-link></li>
-            <li><router-link to="/adv"><img src="/static/img/nav/button_2.png" alt=""></router-link></li>
-            <li><router-link to="/product"><img src="/static/img/nav/button_3.png" alt=""></router-link></li>
-            <li><router-link to="/inv"><img src="/static/img/nav/button_4.png" alt=""></router-link></li>
-            <li style="margin-right:0rem;"><router-link to="/support"><img src="/static/img/nav/button_5.png" alt=""></router-link></li>
+            <li><router-link to="/brand"><img src="static/img/nav/button_1.png" alt=""></router-link></li>
+            <li><router-link to="/adv"><img src="static/img/nav/button_2.png" alt=""></router-link></li>
+            <li><router-link to="/product"><img src="static/img/nav/button_3.png" alt=""></router-link></li>
+            <li><router-link to="/inv"><img src="static/img/nav/button_4.png" alt=""></router-link></li>
+            <li style="margin-right:0rem;"><router-link to="/support"><img src="static/img/nav/button_5.png" alt=""></router-link></li>
         </ul>
-       <img src="/static/img/nav/button_0.png" alt="" class="button0">
-       <img src="/static/img/nav/girl.png" alt="" class="girl">
+       <img src="static/img/nav/button_0.png" alt="" class="button0">
+       <img src="static/img/nav/girl.png" alt="" class="girl">
      <div class="img-box">
-        <img src="/static/img/nav/1.png" >
-        <img src="/static/img/nav/2.png" >
-        <img src="/static/img/nav/3.png" >
-        <img src="/static/img/nav/4.png" >
-        <img src="/static/img/nav/5.png" >
-        <img src="/static/img/nav/1.png" >
-        <img src="/static/img/nav/1.png" >
-        <img src="/static/img/nav/1.png" >
+        <img src="static/img/nav/1.png" >
+        <img src="static/img/nav/2.png" >
+        <img src="static/img/nav/3.png" >
+        <img src="static/img/nav/4.png" >
+        <img src="static/img/nav/5.png" >
+        <img src="static/img/nav/1.png" >
+        <img src="static/img/nav/1.png" >
+        <img src="static/img/nav/1.png" >
      </div>
     </div>
  </div>
