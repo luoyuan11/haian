@@ -42,13 +42,8 @@
     </div>
     <div class="advHight">
       <img src="/static/img/adv/09.jpg" alt>
-<<<<<<< HEAD
       <img src="/static/img/adv/label.png" alt="" class="adv_word1  wow floatUD infinite">
       <router-link to="/product" tag="div" class="next_bg "> <img src="/static/img/adv/next_button2.png" alt="" class="adv_next wow flash infinite linear" ></router-link>
-=======
-      <img src="/static/img/adv/label.png" alt="" class="adv_word1  wow fadeIn ">
-      <router-link to="/product"> <img src="/static/img/adv/next_button.png" alt="" class="adv_next wow dimAnddim infinite" ></router-link>
->>>>>>> 22a540b13f3db6e573bf4ac6ef1b034cfb7038d8
     </div>
     <GOMenu class="wow bounceInDown"></GOMenu>
   </div>
@@ -224,10 +219,7 @@ left: 0.15rem;
   position: absolute;
   bottom: 0.15rem;
   left: 0.25rem;
-<<<<<<< HEAD
   animation-delay: 1.5s;
-=======
->>>>>>> 22a540b13f3db6e573bf4ac6ef1b034cfb7038d8
 }
 .adv_2waves {
   width: 3.45rem;

@@ -17,13 +17,8 @@
       <img src="static/img/inv/t2_p1.png" alt class="inv_10 inv_img wow fadeIn slow">
       <img src="static/img/inv/t2_p2.png" alt class="inv_11 inv_img wow bounceInRight">
       <img src="static/img/inv/t2_fly.png" alt class="inv_12 inv_img">
-<<<<<<< HEAD
       <img src="static/img/inv/t2_word.png" alt class="inv_13 inv_img wow bounceInLeft">
       <img src="static/img/inv/t2_p3.png" alt class="inv_14 inv_img wow fadeIn slow">
-=======
-      <img src="static/img/inv/t2_word.png" alt class="inv_13 inv_img wow wow bounceInLeft">
-      <img src="static/img/inv/t2_p3.png" alt class="inv_14 inv_img wow fadeIn">
->>>>>>> 22a540b13f3db6e573bf4ac6ef1b034cfb7038d8
     </div>
     <div class="inv_about">
       <img src="static/img/inv/03.jpg" alt>
