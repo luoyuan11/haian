@@ -60,6 +60,7 @@
 
 <style scoped>
   #brand{
+
     position: absolute;
     top: 0;
     left: 0;
