@@ -26,7 +26,7 @@
       <img src="static/img/inv/t3_1.png" alt class="inv_img inv_16  wow bounceInRight">
       <img src="static/img/inv/t3_p1.png" alt class="inv_img inv_17 wow fadeIn">
       <img src="static/img/inv/t3_word.png" alt class="inv_img inv_18 wow  bounceInLeft">
-      <img src="static/img/inv/t3_fly.png" alt class="inv_img inv_19">
+      <img src="static/img/inv/t3_fly.png" alt class="inv_img inv_19 wow floatUD infinite liner slow">
     </div>
     <div class="inv_about">
       <img src="static/img/inv/04.jpg" alt>
@@ -40,9 +40,10 @@
     </div>
     <div class="inv_about">
       <img src="static/img/inv/06.jpg" alt>
-      <img src="static/img/inv/word.png" alt class="inv_img inv_24 wow floatUD infinite">    
-      <img src="static/img/inv/next_button.png" alt class="inv_img inv_25 wow flash infinite">     
+      <img src="static/img/inv/word.png" alt class="inv_img inv_24 wow floatUD infinite">
+      <router-link to="/support" tag="div" class="inv_25 inv_img  wow flash infinite"><img src="static/img/inv/next_button.png" alt class=""> </router-link>  
     </div>
+    <GOMenu class="wow bounceInDown"></GOMenu>
   </div>
 </template>
 
@@ -147,6 +148,7 @@ export default {
   height: 0.98rem;
   top: 1.8rem;
   left: 0;
+  animation: 2s bounceInLeft linear,2s floatUD infinite  linear;
 }
 .inv_13 {
   width: 2.87rem;
