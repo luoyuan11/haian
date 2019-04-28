@@ -2,85 +2,91 @@
  <div id="product">
    <div class="part1">
      <GOMenu class="wow bounceInDown"/>
-     <img src="/static/img/product/0.png" alt="" class="iceCream wow flowDown slow">
-     <img src="/static/img/product/images/01.jpg" alt="">
+     <img src="../../static/img/product/0.png" alt="" class="iceCream wow flowDown slow">
+     <img src="../../static/img/product/images/01.jpg" alt="">
    </div>
    <div class="part2">
      <div class="scene">
-       <img src="/static/img/product/t1_1.png" alt="" class="title1 wow bounceInLeft">
-       <img src="/static/img/product/t1_2.png" alt="" class="title2 wow bounceInRight">
-       <img src="/static/img/product/1_1.png" alt="" class="banner wow bounceInRight">
-       <img src="/static/img/product/1.png" alt="" class="tea wow bounceInLeft">
+       <img src="../../static/img/product/t1_1.png" alt="" class="title1 wow bounceInLeft">
+       <img src="../../static/img/product/t1_2.png" alt="" class="title2 wow bounceInRight">
+       <img src="../../static/img/product/1_1.png" alt="" class="banner wow bounceInRight">
+       <img src="../../static/img/product/1.png" alt="" class="tea wow bounceInLeft">
      </div>
 
      <div class="scene1">
        <div class="tea wow bounceInRight">
-         <img src="/static/img/product/2.png" alt="">
+         <img src="../../static/img/product/2.png" alt="">
        </div>
-       <img src="/static/img/product/2_0.png" alt="" class="flower wow rightUpIn">
-       <img src="/static/img/product/2_01.png" alt="" class="flower1 wow floatUD slower infinite">
-       <img src="/static/img/product/2_02.png" alt="" class="flower2 wow floatUD slower infinite">
-       <img src="/static/img/product/2_03.png" alt="" class="bird wow fadeIn slower">
-       <img src="/static/img/product/2_1.png" alt="" class="banner wow bounceInLeft">
+       <img src="../../static/img/product/2_0.png" alt="" class="flower wow rightUpIn">
+       <img src="../../static/img/product/2_01.png" alt="" class="flower1 wow floatUD slower infinite">
+       <img src="../../static/img/product/2_02.png" alt="" class="flower2 wow floatUD slower infinite">
+       <img src="../../static/img/product/2_03.png" alt="" class="bird wow fadeIn slower">
+       <img src="../../static/img/product/2_1.png" alt="" class="banner wow bounceInLeft">
      </div>
 
      <div class="scene2">
        <div class="tea wow bounceInLeft">
-         <img src="/static/img/product/3.png" alt="">
+         <img src="../../static/img/product/3.png" alt="">
        </div>
-       <img src="/static/img/product/3_1.png" alt="" class="banner wow bounceInRight">
-       <img src="/static/img/product/3_2.png" alt="" class="bird wow fadeIn slower">
+       <img src="../../static/img/product/3_1.png" alt="" class="banner wow bounceInRight">
+       <img src="../../static/img/product/3_2.png" alt="" class="bird wow fadeIn slower">
      </div>
      
      <div class="scene3">
        <div class="tea wow bounceInRight">
-         <img src="/static/img/product/4.png" alt="">
+         <img src="../../static/img/product/4.png" alt="">
        </div>
-       <img src="/static/img/product/4_1.png" alt="" class="banner wow bounceInLeft">
+       <img src="../../static/img/product/4_1.png" alt="" class="banner wow bounceInLeft">
      </div>
      
      <div class="scene4">
-       <img src="/static/img/product/5_1.png" alt="" class="banner wow bounceInLeft">
-       <img src="/static/img/product/5.png" alt="" class="tea wow bounceInRight">
-       <img src="/static/img/product/6_0.png" alt="" class="bird wow floatUD slow liner infinite">
+       <img src="../../static/img/product/5_1.png" alt="" class="banner wow bounceInLeft">
+       <img src="../../static/img/product/5.png" alt="" class="tea wow bounceInRight">
+       <img src="../../static/img/product/6_0.png" alt="" class="bird wow floatUD slow liner infinite">
      </div>
      
      <div class="scene5">
-       <img src="/static/img/product/6_0.png" alt="" class="bird wow floatUD slow liner infinite">
-       <img src="/static/img/product/6_1.png" alt="" class="banner wow bounceInRight">
+       <img src="../../static/img/product/6_0.png" alt="" class="bird wow floatUD slow liner infinite">
+       <img src="../../static/img/product/6_1.png" alt="" class="banner wow bounceInRight">
      </div>
-     <img src="/static/img/product/images/02.jpg" alt="">
+     <img src="../../static/img/product/images/02.jpg" alt="">
    </div>
    <div class="part3">
-     <img src="/static/img/product/images/03.jpg" alt="">
+     <img src="../../static/img/product/images/03.jpg" alt="">
    </div>
    <div class="part4">
-     <img src="/static/img/product/7.png" alt="" class="banner wow fadeIn slower">
-     <img src="/static/img/product/images/04.jpg" alt="">
+     <img src="../../static/img/product/7.png" alt="" class="banner wow fadeIn slower">
+     <img src="../../static/img/product/images/04.jpg" alt="">
    </div>
    <div class="part5">
-     <img src="/static/img/product/7_1.png" alt="" class="people wow fadeIn slower">
-     <img src="/static/img/product/images/05.jpg" alt="">
+     <img src="../../static/img/product/7_1.png" alt="" class="people wow fadeIn slower">
+     <img src="../../static/img/product/images/05.jpg" alt="">
    </div>
    <div class="part6">
-     <img src="/static/img/product/images/06.jpg" alt="">
+     <img src="../../static/img/product/images/06.jpg" alt="">
    </div>
    <div class="part7">
-     <img src="/static/img/product/images/07.jpg" alt="">
+     <img src="../../static/img/product/images/07.jpg" alt="">
    </div>
    <div class="part8">
      <div class="nextBt">
        <router-link to="/inv">
-         <img src="/static/img/product/next_button.png" alt="">
-         <img src="/static/img/product/next_button2.png" alt="" class="wow flash infinite liner slower">
+         <img src="../../static/img/product/next_button.png" alt="">
+         <img src="../../static/img/product/next_button2.png" alt="" class="wow flash infinite liner slower">
        </router-link>
      </div>
-     <img src="/static/img/product/images/08.jpg" alt="">
+     <img src="../../static/img/product/images/08.jpg" alt="">
    </div>
  </div>
 </template>
 
 <style scoped>
+  #product{
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+  }
   #product .part1 .iceCream{
     position: absolute;
     width: 2.745rem;

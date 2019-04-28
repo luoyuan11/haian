@@ -26,8 +26,8 @@
       <img src="/static/img/adv/05.webp" alt>
       <img src="/static/img/adv/t3.png" alt class="adv_t3 wow fadeIn">
       <img src="/static/img/adv/tt3.png" alt class="adv_tt3 wow fadeIn">
-     <img src="/static/img/adv/1drink.png" alt class="adv_1drink wow fadeIn slower">
-      <img src="/static/img/adv/2Water-waves.png" alt class="adv_2waves wow bounceInRight  ">
+     <img src="/static/img/adv/1drink.png" alt class="adv_1drink">
+      <img src="/static/img/adv/2Water-waves.png" alt class="adv_2waves ">
       <img src="/static/img/adv/copy1.png" alt="" class="adv_copy1 wow bounceInRight">
       <img src="/static/img/adv/copy2.png" alt="" class="adv_copy2 wow bounceInLeft">
     </div>
@@ -42,8 +42,13 @@
     </div>
     <div class="advHight">
       <img src="/static/img/adv/09.jpg" alt>
+<<<<<<< HEAD
       <img src="/static/img/adv/label.png" alt="" class="adv_word1  wow floatUD infinite">
       <router-link to="/product" tag="div" class="next_bg "> <img src="/static/img/adv/next_button2.png" alt="" class="adv_next wow flash infinite linear" ></router-link>
+=======
+      <img src="/static/img/adv/label.png" alt="" class="adv_word1  wow fadeIn ">
+      <router-link to="/product"> <img src="/static/img/adv/next_button.png" alt="" class="adv_next wow dimAnddim infinite" ></router-link>
+>>>>>>> 22a540b13f3db6e573bf4ac6ef1b034cfb7038d8
     </div>
     <GOMenu class="wow bounceInDown"></GOMenu>
   </div>
@@ -219,7 +224,10 @@ left: 0.15rem;
   position: absolute;
   bottom: 0.15rem;
   left: 0.25rem;
+<<<<<<< HEAD
   animation-delay: 1.5s;
+=======
+>>>>>>> 22a540b13f3db6e573bf4ac6ef1b034cfb7038d8
 }
 .adv_2waves {
   width: 3.45rem;
@@ -258,18 +266,12 @@ margin-top: -0.675rem;
 animation-duration: 2s;
 }
 .adv_next{
-  /* bottom: 0.5rem; */
-  animation-duration: 2.8s;
-  width: 100%;
-}
-.next_bg{
-    position: absolute;
-    left: 50%;
-    margin-left: -0.48rem;
-    bottom: 0.5rem;
-    width: 0.955rem;
-    height: 0.35rem;
-    background: url(/static/img/adv/next_button.png);
-    background-size: 100%;
+  position: absolute;
+ 	width: 0.955rem;
+	height: 0.35rem;
+  left: 50%;
+  margin-left: -0.48rem;
+  bottom: 0.5rem;
+  animation-duration: 1.8s;
 }
 </style>

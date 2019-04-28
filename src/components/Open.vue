@@ -1,13 +1,13 @@
 <template>
  <div class='box'>
      <div class="bg">
-        <img src="/static/img/open/cloud.png" alt="" class="cloud">
-        <img src="/static/img/open/title.png" alt="" class="title">
-        <img src="/static/img/open/0.png" alt="" class="bottle0" >
-        <img src="/static/img/open/1.png" alt="" class="bottle1" >
-        <img src="/static/img/open/2.png" alt="" class="bottle2" >
-        <div class="girl"> <img src="/static/img/open/girl.png" alt="">    </div>
-        <router-link to="/nav"><img src="/static/img/open/next_button.png" alt="" class="button"></router-link>
+        <img src="../../static/img/open/cloud.png" alt="" class="cloud">
+        <img src="../../static/img/open/title.png" alt="" class="title">
+        <img src="../../static/img/open/0.png" alt="" class="bottle0" >
+        <img src="../../static/img/open/1.png" alt="" class="bottle1" >
+        <img src="../../static/img/open/2.png" alt="" class="bottle2" >
+        <div class="girl"> <img src="../../static/img/open/girl.png" alt="">    </div>
+        <router-link to="/nav"><img src="../../static/img/open/next_button.png" alt="" class="button"></router-link>
      </div>
  </div>
 </template>
@@ -71,7 +71,7 @@
 .bg{
     width:100%;
     height:6.67rem;
-    background:url(/static/img/open/background.jpg);
+    background:url(../../static/img/open/background.jpg);
     background-size:100%;
 }
 .cloud{
