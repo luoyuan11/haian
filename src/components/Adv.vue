@@ -26,8 +26,8 @@
       <img src="/static/img/adv/05.webp" alt>
       <img src="/static/img/adv/t3.png" alt class="adv_t3 wow fadeIn">
       <img src="/static/img/adv/tt3.png" alt class="adv_tt3 wow fadeIn">
-     <img src="/static/img/adv/1drink.png" alt class="adv_1drink">
-      <img src="/static/img/adv/2Water-waves.png" alt class="adv_2waves ">
+     <img src="/static/img/adv/1drink.png" alt class="adv_1drink wow fadeIn slower">
+      <img src="/static/img/adv/2Water-waves.png" alt class="adv_2waves wow bounceInRight  ">
       <img src="/static/img/adv/copy1.png" alt="" class="adv_copy1 wow bounceInRight">
       <img src="/static/img/adv/copy2.png" alt="" class="adv_copy2 wow bounceInLeft">
     </div>
@@ -211,6 +211,7 @@ left: 0.15rem;
   position: absolute;
   bottom: 0.15rem;
   left: 0.25rem;
+  animation-delay: 0.5s;
 }
 .adv_2waves {
   width: 3.45rem;
