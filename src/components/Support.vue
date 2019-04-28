@@ -1,68 +1,68 @@
 <template>
   <div id="support">
     <div class="part part1">
-     <img src="../../static/img/support/images/01.jpg" alt="" class="bg">
-     <img src="static/img/support/0.png" alt="" class="mans wow fadeIn">
-    <img src="../../static/img/support/t1_1.png" alt="" class="p1_title wow bounceInLeft">
-    <img src="../../static/img/support/t1_2.png" alt="" class="p1_title wow bounceInRight">
-    <img src="static/img/support/t1_fly.png" alt="" class="t1_fly wow floatUD infinite slow">
-    <img src="static/img/support/t1_p1.png" alt="" class="t1_p1 wow fadeIn">
-    <img src="static/img/support/y1_p2.png" alt="" class="y1_p2 wow bounceInLeft">
-    <img src="static/img/support/t1_font.png" alt="" class="t1_font wow bounceInRight">
+     <img src="/static/img/support/images/01.jpg" alt="" class="bg">
+     <img src="/static/img/support/0.png" alt="" class="mans wow fadeIn">
+    <img src="/static/img/support/t1_1.png" alt="" class="p1_title wow bounceInLeft">
+    <img src="/static/img/support/t1_2.png" alt="" class="p1_title wow bounceInRight">
+    <img src="/static/img/support/t1_fly.png" alt="" class="t1_fly wow floatUD infinite slow">
+    <img src="/static/img/support/t1_p1.png" alt="" class="t1_p1 wow fadeIn">
+    <img src="/static/img/support/y1_p2.png" alt="" class="y1_p2 wow bounceInLeft">
+    <img src="/static/img/support/t1_font.png" alt="" class="t1_font wow bounceInRight">
       <GOMenu class="wow bounceInDown"/>
     </div>
     <div class="part part2">
-      <img src="../../static/img/support/images/02.jpg" alt="" class="bg">
-       <img src="static/img/support/t2_1.png" alt="" class="t2_1 wow bounceInLeft">
-       <img src="static/img/support/t2_2.png" alt="" class="t2_1 wow bounceInRight">
-       <img src="static/img/support/t2_p1.png" style="z-index:3;" alt="" class="t2_p1">
-       <img src="static/img/support/t2_p2.png"  alt="" class="t2_p1 wow fadeIn">
-       <img src="static/img/support/t2_fly.png" alt="" class="t2_fly wow floatUD infinite slow">
-       <img src="static/img/support/t2_p3.png"  alt="" class="t2_p3">
+      <img src="/static/img/support/images/02.jpg" alt="" class="bg">
+       <img src="/static/img/support/t2_1.png" alt="" class="t2_1 wow bounceInLeft">
+       <img src="/static/img/support/t2_2.png" alt="" class="t2_1 wow bounceInRight">
+       <img src="/static/img/support/t2_p1.png" style="z-index:3;" alt="" class="t2_p1">
+       <img src="/static/img/support/t2_p2.png"  alt="" class="t2_p1 wow fadeIn">
+       <img src="/static/img/support/t2_fly.png" alt="" class="t2_fly wow floatUD infinite slow">
+       <img src="/static/img/support/t2_p3.png"  alt="" class="t2_p3">
     </div>
     <div class="part part3">
-     <img src="../../static/img/support/images/03.jpg" alt="" class="bg">
-     <img src="static/img/support/t3_01.png" alt="" class="t3_01 wow bounceInLeft">
-     <img src="static/img/support/t3_02.png" alt="" class="t3_01 wow bounceInRight">
-     <img src="static/img/support/t3_photo.png" alt="" class="t3_photo wow fadeIn">
+     <img src="/static/img/support/images/03.jpg" alt="" class="bg">
+     <img src="/static/img/support/t3_01.png" alt="" class="t3_01 wow bounceInLeft">
+     <img src="/static/img/support/t3_02.png" alt="" class="t3_01 wow bounceInRight">
+     <img src="/static/img/support/t3_photo.png" alt="" class="t3_photo wow fadeIn">
     
     </div>
     <div class="part part4">
-     <img src="../../static/img/support/images/04.jpg" alt="" class="bg">
-      <img src="static/img/support/t4.png" alt="" class="t4 wow bounceInLeft">
-      <img src="static/img/support/t4_01.png" alt="" class="t4_01 wow fadeIn">
+     <img src="/static/img/support/images/04.jpg" alt="" class="bg">
+      <img src="/static/img/support/t4.png" alt="" class="t4 wow bounceInLeft">
+      <img src="/static/img/support/t4_01.png" alt="" class="t4_01 wow fadeIn">
      
     </div>
     <div class="part part5">
-    <img src="../../static/img/support/images/05.jpg" alt="" class="bg">
-     <img src="static/img/support/t4_02.png" alt="" class="t4_02 wow fadeIn">
+    <img src="/static/img/support/images/05.jpg" alt="" class="bg">
+     <img src="/static/img/support/t4_02.png" alt="" class="t4_02 wow fadeIn">
     </div>
     <div class="part part6">
-     <img src="../../static/img/support/images/06.jpg" alt="" class="bg">
-     <img src="static/img/support/t4_03.png" alt="" class="t4_03 wow fadeIn">
+     <img src="/static/img/support/images/06.jpg" alt="" class="bg">
+     <img src="/static/img/support/t4_03.png" alt="" class="t4_03 wow fadeIn">
     </div>
     <div class="part part7">
-       <img src="../../static/img/support/images/07.jpg" alt="" class="bg">
-          <img src="static/img/support/t4_04.png" alt="" class="t4_04 wow fadeIn">
+       <img src="/static/img/support/images/07.jpg" alt="" class="bg">
+          <img src="/static/img/support/t4_04.png" alt="" class="t4_04 wow fadeIn">
     </div>
     <div class="part part8">
-    <img src="../../static/img/support/images/08.jpg" alt="" class="bg">
-       <img src="static/img/support/t4_05.png" alt="" class="t4_05 wow fadeIn">
+    <img src="/static/img/support/images/08.jpg" alt="" class="bg">
+       <img src="/static/img/support/t4_05.png" alt="" class="t4_05 wow fadeIn">
     </div>
     <div class="part part9">
-     <img src="../../static/img/support/images/09.jpg" alt="" class="bg">
-      <img src="static/img/support/t5.png" alt="" class="t5 wow fadeIn">
-        <img src="static/img/support/t55.png" alt="" class="t55 wow fadeIn">
-        <img src="static/img/support/boat1.png" alt="" class="boat1 wow boatAni1">
-        <img src="static/img/support/boat2.png" alt="" class="boat2 wow boatAni">
-        <img src="static/img/support/fly.png" alt="" class="fly wow floatUD infinite slow">
+     <img src="/static/img/support/images/09.jpg" alt="" class="bg">
+      <img src="/static/img/support/t5.png" alt="" class="t5 wow fadeIn">
+        <img src="/static/img/support/t55.png" alt="" class="t55 wow fadeIn">
+        <img src="/static/img/support/boat1.png" alt="" class="boat1 wow boatAni1">
+        <img src="/static/img/support/boat2.png" alt="" class="boat2 wow boatAni">
+        <img src="/static/img/support/fly.png" alt="" class="fly wow floatUD infinite slow">
     </div>
     <div class="part part10">
-       <img src="../../static/img/support/images/10.jpg" alt="" class="bg">
-       <img src="static/img/support/t6.png" alt="" class="t6">
-        <img src="static/img/support/000.png" alt="" class="t8 wow floatUD infinite slow">
-        <img src="static/img/support/girl.png" alt="" class="girl wow fadeIn slow">
-        <router-link to="/"><img src="static/img/support/button.png" alt="" class="button "><img src="static/img/brand/next_button2.png" alt="" class="button slow wow flash infinite liner animation"></router-link>
+       <img src="/static/img/support/images/10.jpg" alt="" class="bg">
+       <img src="/static/img/support/t6.png" alt="" class="t6">
+        <img src="/static/img/support/000.png" alt="" class="t8 wow floatUD infinite slow">
+        <img src="/static/img/support/girl.png" alt="" class="girl wow fadeIn slow">
+        <router-link to="/"><img src="/static/img/support/button.png" alt="" class="button wow flash infinite liner slow animation"></router-link>
     </div>
   </div>
 </template>
@@ -123,6 +123,7 @@
     position:absolute;
     left:1.38rem;
     bottom:0.615rem;
+    animation-duration: 10s;
 }
 .girl{
     width:0.755rem;
@@ -184,11 +185,11 @@
     bottom:0.3rem;
 }
 .t4_04{
-    width:3.135rem;
-    height:1.66rem;
+    width:3.325rem;
+    height:1.45rem;
     position: absolute;
     left:0.21rem;
-    bottom:0.2rem;
+    bottom:0.18rem;
 }
 .t4_03{
     width:3.39rem;
