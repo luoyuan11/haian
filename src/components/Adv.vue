@@ -1,8 +1,8 @@
 <template>
   <div class="adv">
     <div class="davTop">
-      <img src="/static/img/adv/01.jpg" alt width="100%">
-      <img src="/static/img/adv/0.png" alt class="adv_1 wow flowDown" width="100%" >
+      <img :src="img[0]" alt width="100%">
+      <img :src="img[1]" alt class="adv_1 wow flowDown" width="100%" >
     </div>
     <div class="advMild">
       <img src="/static/img/adv/02.jpg" alt width="100%">
@@ -42,7 +42,7 @@
     </div>
     <div class="advHight">
       <img src="/static/img/adv/09.jpg" alt>
-      <img src="/static/img/adv/label.png" alt="" class="adv_word1  wow fadeIn ">
+      <img src="/static/img/adv/label.png" alt="" class="adv_word1  wow floatUD infinite">
       <router-link to="/product" tag="div" class="next_bg "> <img src="/static/img/adv/next_button2.png" alt="" class="adv_next wow flash infinite linear" ></router-link>
     </div>
     <GOMenu class="wow bounceInDown"></GOMenu>
@@ -57,6 +57,14 @@
   name: "Adv",
     components: {
       GOMenu
+    },
+    data:function(){
+      return{
+        img:[
+          "/static/img/adv/01.jpg",
+          "/static/img/adv/0.png",
+        ]
+      }
     },
     mounted() {
      new WOW({
@@ -211,7 +219,7 @@ left: 0.15rem;
   position: absolute;
   bottom: 0.15rem;
   left: 0.25rem;
-  animation-delay: 0.5s;
+  animation-delay: 1.5s;
 }
 .adv_2waves {
   width: 3.45rem;
@@ -219,6 +227,7 @@ left: 0.15rem;
   position: absolute;
   bottom: 0.18rem;
   right: 0;
+  animation-delay: 1s;
 }
 .advFile{
   position: relative;
