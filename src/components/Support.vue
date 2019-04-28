@@ -55,6 +55,7 @@
         <img src="/static/img/support/t55.png" alt="" class="t55 wow fadeIn">
         <img src="/static/img/support/boat1.png" alt="" class="boat1 wow boatAni1">
         <img src="/static/img/support/boat2.png" alt="" class="boat2 wow boatAni">
+         <img src="/static/img/support/boat3.png" alt="" class="boat3 wow boatAni2">
         <img src="/static/img/support/fly.png" alt="" class="fly wow floatUD infinite slow">
     </div>
     <div class="part part10">
@@ -75,6 +76,10 @@
 .boatAni1 {
     -webkit-animation:boatAni 15s .5s infinite linear, boatMov 30s .5s infinite linear;
     animation:boatAni 15s .5s infinite linear, boatMov 30s .5s infinite linear
+}
+.boatAni2 {
+    -webkit-animation:boatAni 15s .5s infinite linear 8s, boatMov 30s .5s infinite linear 8s;
+    animation:boatAni 15s .5s infinite linear 8s, boatMov 30s .5s infinite linear 8s;
 }
 @keyframes boatAni {
     0%, 20%, 40%, 60%, 80%, to {
@@ -141,6 +146,13 @@
     z-index: 99;
     bottom:1.095rem;
     left:0.775rem;
+}
+.boat3{
+    width:0.97rem;
+    height:1.2rem;
+    position: absolute;
+    bottom:0.34rem;
+    right:-1rem;
 }
 .boat2{
     width:0.97rem;
