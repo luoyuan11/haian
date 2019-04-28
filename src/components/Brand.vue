@@ -59,6 +59,12 @@
 </template>
 
 <style scoped>
+  #brand{
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+  }
   #brand .part1 .scene img{
     position: absolute;
   }

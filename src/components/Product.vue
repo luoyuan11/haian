@@ -81,6 +81,12 @@
 </template>
 
 <style scoped>
+  #product{
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+  }
   #product .part1 .iceCream{
     position: absolute;
     width: 2.745rem;

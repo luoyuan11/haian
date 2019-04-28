@@ -2,11 +2,11 @@
   <div class="inv">
     <div class="inv_about">
       <img src="static/img/inv/01.jpg" alt>
-      <img src="static/img/inv/0.png" alt class="inv_1 inv_img wow fadeIn">
+      <img src="static/img/inv/0.png" alt class="inv_1 inv_img wow fadeIn slow">
       <img src="static/img/inv/01.png" alt class="inv_2 inv_img">
       <img src="static/img/inv/t1_1.png" alt class="inv_3 inv_img wow bounceInLeft">
       <img src="static/img/inv/t1_2.png" alt class="inv_4 inv_img wow bounceInRight">
-      <img src="static/img/inv/t1_p1.png" alt class="inv_5 inv_img wow fadeIn">
+      <img src="static/img/inv/t1_p1.png" alt class="inv_5 inv_img wow fadeIn slow">
       <img src="static/img/inv/t1_word.png" alt class="inv_6 inv_img wow bounceInLeft">
       <img src="static/img/inv/t1_p2.png" alt class="inv_7 inv_img wow bounceInRight">
     </div>
@@ -14,17 +14,17 @@
       <img src="static/img/inv/02.jpg" alt>
       <img src="static/img/inv/t2_1.png" alt class="inv_8 inv_img wow bounceInLeft">
       <img src="static/img/inv/t2_2.png" alt class="inv_9 inv_img wow bounceInRight">
-      <img src="static/img/inv/t2_p1.png" alt class="inv_10 inv_img wow fadeIn">
+      <img src="static/img/inv/t2_p1.png" alt class="inv_10 inv_img wow fadeIn slow">
       <img src="static/img/inv/t2_p2.png" alt class="inv_11 inv_img wow bounceInRight">
       <img src="static/img/inv/t2_fly.png" alt class="inv_12 inv_img">
       <img src="static/img/inv/t2_word.png" alt class="inv_13 inv_img wow bounceInLeft">
-      <img src="static/img/inv/t2_p3.png" alt class="inv_14 inv_img wow fadeIn">
+      <img src="static/img/inv/t2_p3.png" alt class="inv_14 inv_img wow fadeIn slow">
     </div>
     <div class="inv_about">
       <img src="static/img/inv/03.jpg" alt>
       <img src="static/img/inv/t3_2.png" alt class="inv_img inv_15 wow  bounceInLeft">
       <img src="static/img/inv/t3_1.png" alt class="inv_img inv_16  wow bounceInRight">
-      <img src="static/img/inv/t3_p1.png" alt class="inv_img inv_17 wow fadeIn">
+      <img src="static/img/inv/t3_p1.png" alt class="inv_img inv_17 wow fadeIn slow">
       <img src="static/img/inv/t3_word.png" alt class="inv_img inv_18 wow  bounceInLeft">
       <img src="static/img/inv/t3_fly.png" alt class="inv_img inv_19 wow floatUD infinite liner slow">
     </div>
@@ -32,6 +32,7 @@
       <img src="static/img/inv/04.jpg" alt>
       <img src="static/img/inv/sub-btm.png" alt class="inv_img inv_20">
       <img src="static/img/inv/sub-btm2.png" alt class="inv_img inv_21">
+      <img src="static/img/inv/sub-btm2.png" alt class="inv_img inv_211">
     </div>
     <div class="inv_about">
       <img src="static/img/inv/05.jpg" alt>
@@ -202,13 +203,25 @@ width: 1rem;
     right: 0;
     bottom: 0.26rem;
     animation: boatAni 10s .5s infinite linear,boatMov 20s .5s infinite linear;
+    z-index: 3;
 }
 .inv_21{
 	width: 0.31rem;
 	height: 0.37rem;
     left: 2rem;
-    bottom: 0.5rem;
+    bottom: 0.6rem;
     animation: boatAni 15s .5s infinite linear,boatMov 30s .5s infinite linear;
+    z-index: 2;
+
+}
+.inv_211{
+  	width: 0.5rem;
+	  height: 0.55rem;
+    left: 2.2rem;
+    bottom: 0.35rem;
+    animation: boatAni 12s .5s infinite linear,boatMov 25s .5s infinite linear;
+    animation-delay: 1s;
+    z-index: 1;
 }
 .inv_22{
     width: 0.6rem;
