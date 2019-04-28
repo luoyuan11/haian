@@ -107,7 +107,7 @@
 .bg{
     width:100%;
     height:6.67rem;
-    background:url(../../static/img/nav/background.jpg);
+    background:url(/static/img/nav/background.jpg);
     background-size:100%;
     position:relative;
 }
