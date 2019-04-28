@@ -7,8 +7,8 @@
 
 /*****************************************目录******************************************
   类名                        说明
-bounceInLeft                左边飞入
-bounceInRight               右边飞入
+bounceInLeft                左边飞入（弹动）
+bounceInRight               右边飞入（弹动）
 flash                       闪烁
 fadeIn                      0-100显示
 floatUD                     上下浮动
@@ -19,6 +19,8 @@ bounceInDown                下落
 dimAnddim                   忽明忽暗
 boatAni                     偏移
 boatMov                     前进
+fadeInRightBig              右飞入（不弹动）
+fadeInLeftBig               左飞入（不弹动）
 ****************************************************************************************
                                   增加动画模板
 @-webkit-keyframes 类名 {
@@ -637,3 +639,73 @@ boatMov                     前进
   animation-name: rightUpIn;
 }
 /*****斜角右进入-end *****/
+
+/*****右飞进*****/
+@-webkit-keyframes fadeInRightBig {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(2000px, 0, 0);
+    transform: translate3d(2000px, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInRightBig {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(2000px, 0, 0);
+    transform: translate3d(2000px, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInRightBig {
+  -webkit-animation-name: fadeInRightBig;
+  animation-name: fadeInRightBig;
+}
+/*****右飞进-end*****/
+
+/*****左飞进*****/
+@-webkit-keyframes fadeInLeftBig {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-2000px, 0, 0);
+    transform: translate3d(-2000px, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInLeftBig {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-2000px, 0, 0);
+    transform: translate3d(-2000px, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInLeftBig {
+  -webkit-animation-name: fadeInLeftBig;
+  animation-name: fadeInLeftBig;
+}
+/*****左飞进 -end*****/
